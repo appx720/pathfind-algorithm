@@ -17,13 +17,16 @@ This repo includes two algorithms of path finding and Seoul subway map finding u
 ## 2. Implementation of Seoul Subway Map and Optimal Path (/subway-pathfind)
 - Utilized the above algorithms to implement the Seoul subway map and calculate the optimal path to the destination based on these algorithms.
 - All rights to the data used belong to the Seoul Transportation Corporation.
-- `algorithm.py` file contains the core of this repo.
+- `algorithm.py` file contains the core of this repo. (almost the same thing with the `dijkstra.py`.)
+- `find_path` func will search for the fastest path to the list. The example is shown below the image.
+<img src="img/find_path.png" alt="find path result"/>
 <img src="img/subway.png" alt="subway graph"/>
 
 ## 3. TODO things
 - The Seoul subway map is not accurate.
 - The map is not easy to understand.
 - In some cases, the path is not found appropriate. (because of slightly incorrect graph)
+- I want to add function of draw graph based on found path of subway stations.
 
 ## 4. References
 https://blog.naver.com/honey_gguri/222045386773<br>
@@ -33,3 +36,5 @@ https://velog.io/@717lumos
 ## 5. License
 - The MIT license will be applied only to `subway-pathfind`.
 - If you want more information, please refer to [LICENSE](LICENSE) file.
+
+Feel free to use this!😊
