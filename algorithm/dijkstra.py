@@ -43,6 +43,7 @@ def dijkstra(graph: dict, start: str, end: str=None) -> list:
     previous_node = {node: None for node in graph.keys()}
 
     while queue:
+        print(queue)
         current_distance, current_node = heapq.heappop(queue)
 
         # skip if distance is greater than last distance
