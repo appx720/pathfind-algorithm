@@ -1,1 +1,4 @@
 *.csv
+__pycache__/
+subway-pathfind/__pycache__/
+algorithm/__pycache__/
